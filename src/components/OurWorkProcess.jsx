@@ -9,6 +9,7 @@ const OurWorkProcess = () => {
         </h1>
 
       <div className="md:grid grid-cols-3 gap-8 ">
+        
         <div className=" bg-white text-center shadow-lg shadow-slate-400  border-2 border-slate-200 ">
           <div className="flex justify-center pt-[35px] pb-3">
             <img
@@ -73,6 +74,7 @@ const OurWorkProcess = () => {
             </a>
           </button>
         </div>
+
       </div>
     </div>
   );
