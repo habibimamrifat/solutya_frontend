@@ -1,4 +1,8 @@
 import React from "react";
+import blog4 from "./Asset/img/5.png";
+import blog3 from "./Asset/img/10.png";
+import blog2 from "./Asset/img/10.png";
+import blog1 from "./Asset/img/Rectangle 336.png";
 
 const Ourblog = () => {
   return (
@@ -15,7 +19,7 @@ const Ourblog = () => {
         <div className="card card-compact bg-base-100  shadow-none">
           <figure>
             <img className=""
-              src="../../public/img/Rectangle 336.png"
+              src={blog1}
               alt="Shoes"
             />
           </figure>
@@ -34,7 +38,7 @@ const Ourblog = () => {
         <div className="card card-compact bg-base-100 shadow-none">
           <figure>
             <img
-              src="../../public/img/3.png"
+              src={blog2}
               alt="Shoes"
             />
           </figure>
@@ -49,10 +53,11 @@ const Ourblog = () => {
             </div>
           </div>
         </div>
+
         <div className="card card-compact bg-base-100 shadow-none">
           <figure>
             <img
-              src="../../public/img/10.png"
+              src={blog3}
               alt="Shoes"
             />
           </figure>
@@ -67,10 +72,11 @@ const Ourblog = () => {
             </div>
           </div>
         </div>
+
         <div className="card card-compact bg-base-100 shadow-none">
           <figure>
             <img
-              src="../../public/img/5.png"
+              src={blog4}
               alt="Shoes"
             />
           </figure>

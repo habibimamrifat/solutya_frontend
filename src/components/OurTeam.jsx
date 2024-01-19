@@ -1,4 +1,13 @@
 import React from "react";
+import icon1 from "./Asset/img/Group 18221.png";
+import icon2 from "./Asset/img/Group 18222.png"
+import icon3 from "./Asset/img/Group.png";
+import icon4 from "./Asset/img/Group 18223.png";
+import icon5 from "./Asset/img/Group 18224.png";
+import img15 from "./Asset/img/Rectangle 227 (1).png"
+import img16 from "./Asset/img/Rectangle 228 (1).png"
+import img17 from "./Asset/img/Rectangle 230 (1).png";
+import img18 from "./Asset/img/Rectangle 231 (1).png";
 
 const OurTeam = () => {
   return (
@@ -18,7 +27,7 @@ const OurTeam = () => {
           <figure>
             <img
               className=""
-              src="../../public/img/Rectangle 227 (1).png"
+              src={img15}
               alt="Shoes"
             />
           </figure>
@@ -30,27 +39,27 @@ const OurTeam = () => {
             <div className="flex justify-around relative top-72">
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18221.png"
+                src={icon1}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18222.png"
+                src={icon2}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group.png"
+                src={icon3}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18223.png"
+                src={icon4}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18224.png"
+                src={icon5}
                 alt=""
               />
             </div>
@@ -60,7 +69,7 @@ const OurTeam = () => {
           <figure>
             <img
               className=""
-              src="../../public/img/Rectangle 228 (1).png"
+              src={img16}
               alt="Shoes"
             />
           </figure>
@@ -72,27 +81,27 @@ const OurTeam = () => {
             <div className="flex justify-around relative top-72">
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18221.png"
+                src={icon1}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18222.png"
+                src={icon2}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group.png"
+                src={icon3}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18223.png"
+                src={icon4}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18224.png"
+                src={icon5}
                 alt=""
               />
             </div>
@@ -103,7 +112,7 @@ const OurTeam = () => {
           <figure>
             <img
               className=""
-              src="../../public/img/Rectangle 230 (1).png"
+              src={img17}
               alt="Shoes"
             />
           </figure>
@@ -115,27 +124,27 @@ const OurTeam = () => {
             <div className="flex justify-around relative top-72">
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18221.png"
+                src={icon1}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18222.png"
+                src={icon2}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group.png"
+                src={icon3}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18223.png"
+                src={icon4}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18224.png"
+                src={icon5}
                 alt=""
               />
             </div>
@@ -145,7 +154,7 @@ const OurTeam = () => {
           <figure>
             <img
               className=""
-              src="../../public/img/Rectangle 231 (1).png"
+              src={img18}
               alt="Shoes"
             />
           </figure>
@@ -157,27 +166,27 @@ const OurTeam = () => {
             <div className="flex justify-around relative top-72">
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18221.png"
+                src={icon1}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18222.png"
+                src={icon2}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group.png"
+                src={icon3}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18223.png"
+                src={icon4}
                 alt=""
               />
               <img
                 className="w-[36px] h-[36px]"
-                src="../../public/img/Group 18224.png"
+                src={icon5}
                 alt=""
               />
             </div>

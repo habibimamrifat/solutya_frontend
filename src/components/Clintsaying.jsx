@@ -1,4 +1,8 @@
 import React from 'react'
+import button2 from "./Asset/img/Group 34124.png";
+import img5 from "./Asset/img/Health-5 1.png";
+import img6 from "./Asset/img/Health-5 1 (1).png";
+import img7 from "./Asset/img/Health-5 1 (2).png";
 
 const Clintsaying = () => {
   return (
@@ -19,7 +23,7 @@ const Clintsaying = () => {
           <div className="flex items-center justify-center pt-[35px] pb-3 rounded-full overflow-hidden border-2 h-[99px] w-[99px]">
             <img
               className="  object-fill"
-              src="../../public/img/Health-5 1.png"
+              src={img5}
               alt=""
             />
             
@@ -32,7 +36,7 @@ const Clintsaying = () => {
           </p>
           <button className="mb-1 mt-4 text-lg font-medium">
             <a className="text-[#ECA76E] px-[16px] py-2" href="/">
-              <img src="../../public/img/Group 34124.png" alt="" />
+              <img src={button2} alt="" />
             </a>
           </button>
         </div>
@@ -41,7 +45,7 @@ const Clintsaying = () => {
           <div className="flex items-center justify-center pt-[35px] pb-3 rounded-full overflow-hidden border-2 h-[99px] w-[99px]">
             <img
               className="  object-fill"
-              src="../../public/img/Health-5 1.png"
+              src={img6}
               alt=""
             />
             
@@ -54,7 +58,7 @@ const Clintsaying = () => {
           </p>
           <button className="mb-1 mt-4 text-lg font-medium">
             <a className="text-[#ECA76E] px-[16px] py-2" href="/">
-              <img src="../../public/img/Group 34124.png" alt="" />
+              <img src={button2} alt="" />
             </a>
           </button>
         </div>
@@ -63,7 +67,7 @@ const Clintsaying = () => {
           <div className="flex items-center justify-center pt-[35px] pb-3 rounded-full overflow-hidden border-2 h-[99px] w-[99px]">
             <img
               className="  object-fill"
-              src="../../public/img/Health-5 1.png"
+              src={img7}
               alt=""
             />
             
@@ -76,7 +80,7 @@ const Clintsaying = () => {
           </p>
           <button className="mb-1 mt-4 text-lg font-medium">
             <a className="text-[#ECA76E] px-[16px] py-2" href="/">
-              <img src="../../public/img/Group 34124.png" alt="" />
+              <img src={button2} alt="" />
             </a>
           </button>
         </div>

@@ -1,4 +1,9 @@
 import React from "react";
+import printer from './Asset/img/printer-icon-front-side-removebg-preview 1.png';
+import club from "./Asset/img/home-sign-icon-front-side-white-background-removebg-preview 1.png";
+import img2 from "./Asset/img/e702822a89bdb4c1d38f6fd4fe343cd2-removebg-preview 1.png";
+import img3 from "./Asset/img/home-sign-icon-front-side-white-background-removebg-preview 1.png";
+import img4 from "./Asset/img/luxury-golden-house-3d-real-estate-rendering-removebg-preview 1.png";
 
 const Clients = () => {
   return (
@@ -13,7 +18,7 @@ const Clients = () => {
             <div className="flex gap-1 items-center p-5">
               <img
                 className="h-[54px] w-[50px]"
-                src="..'/../public/img/printer-icon-front-side-removebg-preview 1.png"
+                src={printer}
                 alt=""
               />
               <h6 className="text-[24px] font-medium">EBOX</h6>
@@ -21,7 +26,7 @@ const Clients = () => {
             <div className="flex gap-1 items-center p-5">
               <img
                 className="h-[54px] w-[50px]"
-                src="../../public/img/home-sign-icon-front-side-white-background-removebg-preview 1.png"
+                src={club}
                 alt=""
               />
               <h6 className="text-[24px] font-medium">House Green</h6>
@@ -29,7 +34,7 @@ const Clients = () => {
             <div className="">
               <img
                 className="h-[110x] w-[79px]"
-                src="../../public/img/e702822a89bdb4c1d38f6fd4fe343cd2-removebg-preview 1.png"
+                src={img2}
                 alt=""
               />
               {/* <h6 className='text-[24px] font-medium'>EBOX</h6> */}
@@ -37,7 +42,7 @@ const Clients = () => {
             <div className="flex gap-1 items-center p-5">
               <img
                 className="h-[54px] w-[50px]"
-                src="../../public/img/home-sign-icon-front-side-white-background-removebg-preview 1.png"
+                src={img3}
                 alt=""
               />
               <h6 className="text-[24px] font-medium">House logo</h6>
@@ -45,7 +50,7 @@ const Clients = () => {
             <div className="flex gap-1 items-center p-5">
               <img
                 className="h-[54px] w-[50px]"
-                src="../../public/img/luxury-golden-house-3d-real-estate-rendering-removebg-preview 1.png"
+                src={img4}
                 alt=""
               />
               <h6 className="text-[24px] font-medium">Room Decor</h6>

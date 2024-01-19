@@ -1,4 +1,8 @@
 import React from "react";
+import img20 from "./Asset/img/Group 18402.png";
+import img21 from "./Asset/img/Group 18407.png"
+import img22 from "./Asset/img/Group 18408 (1).png"
+import btn from "./Asset/img/Button.png";
 
 const OurWorkProcess = () => {
   return (
@@ -9,12 +13,12 @@ const OurWorkProcess = () => {
         </h1>
 
       <div className="md:grid grid-cols-3 gap-8 ">
-        
+
         <div className=" bg-white text-center shadow-lg shadow-slate-400  border-2 border-slate-200 ">
           <div className="flex justify-center pt-[35px] pb-3">
             <img
               className="w-[59px] h-[61px]"
-              src="../../public/img/Group 18402.png"
+              src={img20}
               alt=""
             />
             .
@@ -26,7 +30,7 @@ const OurWorkProcess = () => {
           </p>
           <button className="mb-1 mt-4 text-lg font-medium">
             <a className="text-[#ECA76E] px-[16px] py-2" href="/">
-              <img src="../../public/img/Button.png" alt="" />
+              <img src={btn} alt="" />
             </a>
           </button>
         </div>
@@ -35,7 +39,7 @@ const OurWorkProcess = () => {
           <div className="flex justify-center pt-[26px] pb-3">
             <img
               className="w-[59px] h-[61px]"
-              src="../../public/img/Group 18407.png"
+              src={img21}
               alt=""
             />
             .
@@ -48,7 +52,7 @@ const OurWorkProcess = () => {
           </p>
           <button className="mb-1 mt-4 text-lg font-medium">
             <a className="text-[#ECA76E] px-11 py-2" href="/">
-              <img src="../../public/img/Button.png" alt="" />
+              <img src={btn} alt="" />
             </a>
           </button>
         </div>
@@ -57,7 +61,7 @@ const OurWorkProcess = () => {
           <div className="flex justify-center pt-[26px] pb-3">
             <img
               className="w-[59px] h-[61px]"
-              src="../../public/img/Group 18408 (1).png"
+              src={img22}
               alt=""
             />
             .
@@ -70,7 +74,7 @@ const OurWorkProcess = () => {
           </p>
           <button className="mb-1 mt-4 text-lg font-medium">
             <a className="text-[#ECA76E] px-11 py-2" href="/">
-              <img src="../../public/img/Button.png" alt="" />
+              <img src={btn} alt="" />
             </a>
           </button>
         </div>
